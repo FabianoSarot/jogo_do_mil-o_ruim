@@ -18,53 +18,53 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "rinocerontes são dinossaouros?",
+        enunciado: "Ciência e tecnologia no Brasil são produzidas em grande parte nas universidades públicas e institutos de pesquisa. Neste campo de conhecimento o Brasil obteve, nas últimas décadas, uma posição significativa no cenário internacional.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Bizonho!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Radical",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "No horizonte, vislumbramos um futuro turbulento, onde conflitos geopolíticos e rivalidades entre nações definem o curso dos acontecimentos. O aumento da escassez de recursos naturais e as mudanças climáticas exacerbam as tensões globais, levando a crises humanitárias e conflitos armados. Enquanto isso, a evolução rápida da tecnologia cria novas ameaças à segurança cibernética e à privacidade individual. Nesse mundo de incertezas, a cooperação internacional se torna mais crucial do que nunca para enfrentar os desafios comuns da humanidade.",
+        enunciado: "O mercado industrial foi marcado por inovações, o conceito de indústria 4.0 se mostra cada vez mais promissor. A automação passa a contar com sensores que geram dados em tempo real, plugando à robótica e a Internet das Coisas. O conceito de indústria 4.0 aumenta a performance não só da linha de produção, mas também de toda a jornada da matéria prima ao produto e a entrega do produto ao consumidor. Com o advento do 5G no Brasil, esse conceito ficará ainda mais forte.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Doideira",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Quem?",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "À medida que a ciência avança, a humanidade se vê diante de novas fronteiras éticas e sociais. Avanços na engenharia genética permitem modificações no DNA humano, oferecendo a promessa de curar doenças genéticas e melhorar características físicas e cognitivas. No entanto, isso levanta preocupações sobre desigualdades socioeconômicas e discriminação genética. Enquanto exploramos as possibilidades e os limites da manipulação genética, também enfrentamos questões profundas sobre identidade, igualdade e o que significa ser humano.",
+        enunciado: "O Universo é vasto e deve existir a pelo menos 13 bilhões de anos. Apesar de conter um número gigantesco de galáxias, estrelas e planetas, o Universo é mais vazio do que imaginamos: a distância que separa os corpos celestes é geralmente muito grande.",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Legal",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Chatão",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "À medida que olhamos para o céu, vemos um futuro de possibilidades infinitas. A exploração espacial se torna uma prioridade global, com a humanidade estabelecendo colônias em Marte e além. Essa busca por novos horizontes não apenas impulsiona a tecnologia e a inovação, mas também promove a cooperação internacional e a paz mundial. Enquanto nos aventuramos no espaço sideral, também encontramos novas formas de nos unirmos como uma única espécie, transcendendo fronteiras e diferenças. Nesse futuro de integração global e exploração cósmica, a humanidade se torna verdadeiramente uma civilização interplanetária.",
+        enunciado: "O sexo de um bebê jacaré é definido pela temperatura, quanto mais quente o ninho, maiores são as probabilidades do nascimento de fêmeas, é o aquecimento global prejudica estes animais, diminuindo a quantidade de machos existente no globo.",
         alternativas: [
             {
-                texto:  "Isso é assustador!",
+                texto:  "Jaré",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto:  "Putz",
                 afirmacao: "afirmação"
             }
         ]
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Possibilidades que amedrontam nossa civilização, o medo do desconhecido, ASS: Senegalia e Gregório...";
+    caixaPerguntas.textContent = "Como já dizia Nat Rutz Tudo vira bosta...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
