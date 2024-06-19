@@ -6,7 +6,8 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "As tartarugas marinhas podem viver entre 150 e 200 anos, dependendo da espécie, de acordo com um artigo publicado pela National Geographic Espanha. Seus primeiros anos de vida, no entanto, são um mistério para aqueles que estudam o animal de perto.": [
+        enunciado: "As tartarugas marinhas podem viver entre 150 e 200 anos, dependendo da espécie, de acordo com um artigo publicado pela National Geographic Espanha. Seus primeiros anos de vida, no entanto, são um mistério para aqueles que estudam o animal de perto.",
+        alternativas: [
             {
                 texto: "Interessante",
                 afirmacao: "Afirmação"
