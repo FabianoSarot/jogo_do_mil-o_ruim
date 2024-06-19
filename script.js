@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Como já dizia Nat Rutz Tudo vira bosta...";
+    caixaPerguntas.textContent = "Como já dizia Rita Lee Tudo vira bosta...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
